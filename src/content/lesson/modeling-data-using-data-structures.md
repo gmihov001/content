@@ -21,21 +21,21 @@ For these types of situations the world of computer science has created more com
 
 # What is a Data Structure
 
-It's a way of organizing related data to be used in a more effective way on a particular situation.
+It's a way of organizing related data to be used in a more effective way in a particular situation.
 
 ## Types of Data Structures
 
-There are many publicly known data-structures and you can also create your own, but lets start by reviewing the most popular ones:
+There are many publicly known data-structures and you can also create your own, but let's start by reviewing the most popular ones:
 
-| Type | What is it | Purpuse and Efficency |
+| Type | What is it | Purpouse and Efficiency |
 | ---- | ---------- | --------------------- |
-| Array or List | It's a way to have many values or the same type under just one variable | Grouping values, related them togeter, make them more accesible like we did with the todo list above. The computer will reserve successive spaces in Memory for all values making them faster to access |
+| Array or List | It's a way to have many values of the same type under just one variable | Grouping values, relate them togeter, make them more accessible like we did with the todo list above. The computer will reserve successive spaces in Memory for all values making them faster to access |
 | Matrix | It's a two (or more) dimensional array were you access elements using 2 positions like this: `python>print(matrix[0][1])` | Matrix are ideal for coordenates, you can easily do a cartesian graph |
 | Stack | Stack is a linear data structure, you can think of it like an Array but with two additional methods: `python>stack.pop()` that removes the last element and `python>stack.push()` that adds one element at the end. LIFO(Last In First Out)/FILO(First In Last Out) order. | Being linear, makes it very efficient in memory because the computer only writes on the edges of the structure  |
-| Queue | The queue is like a stack but it and get the element at the first position: FIFO(First in First Out) | It's a little less efficient that the stack, but still pretty fast and used in many real life scenarios |
-| Hash Table | Hash table is like an array but you can use letters to identify the positions in the list. E.g: `python>print(person["name"])`. In Python we call them Dictonarys, in Javascript we call them Object Literals. | Being able to access elements using a string key is ideal for some situations. For example: we could have one structure for each language and print both languages like this: `print(german["Hello World"])` and `print(spanish["Hello World"])` |
+| Queue | The queue is like a stack but it can get the element at the first position: FIFO(First in First Out) | It's a little less efficient that the stack, but still pretty fast and used in many real life scenarios |
+| Hash Table | Hash table is like an array but you can use letters to identify the positions in the list. E.g: `python>print(person["name"])`. In Python we call them Dictonaries, in Javascript we call them Object Literals. | Being able to access elements using a string key is ideal for some situations. For example: we could have one structure for each language and print both languages like this: `print(german["Hello World"])` and `print(spanish["Hello World"])` |
 | Graph | Graps are data structures were any element (called node) can have a pointer to any other node, you can use graphs to represent hiearchies, streets in a city, etc. | Graphs are very efficient because they let you point directly to other nodes instead of having to loop in a sequence, for example Google Maps Traffic uses graphs to calculate the Estimated Time of Arrival  |
-| Tree | Trees are a tipe of Graph with hierarchy (parents and childs), everything starts at the top node and you can use `python>node.childs()` to get the childs of any element and keep drilling down the hierarchy. | Trees are efficient in many scenarios where real life hierarchies are present like: Representing a family, The File Directory of any computer, Website Menu, etc. |
+| Tree | Trees are a tipe of Graph with hierarchy (parents and childs), everything starts at the top node and you can use `python>node.childs()` to get the children of any element and keep drilling down the hierarchy. | Trees are efficient in many scenarios where real life hierarchies are present, like: Representing a family, The File Directory of any computer, Website Menu, etc. |
 
 [[info]]
 | :point_up: there are other types of data structures and you can also create your own structures but we are covering these cases because they represent the strong mayority of the real-life situations you are going to encouncer while coding.
