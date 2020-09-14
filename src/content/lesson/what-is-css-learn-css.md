@@ -56,8 +56,8 @@ Let’s review those 2 tags in more detail:
 
 |**Name**   |**Display**   |**Description**   |
 |:----------|:-------------|:------------------|
-|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `pyton>rel="stylesheet" type="text/css"` and finally `pyton>href="with document route css"`<br>`pyton>link rel="stylesheet" type="text/css" href="theme.css">`   |
-|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`pyton><style>`<br>`pyton>h1 {color:red;}`<br>`pyton>p {color:blue;}`<br>`pyton></style>`   |
+|Link       |link          |The purpose is to link the page with CSS stylesheets.  To use it, you must specify three attributes within the tag: `python>rel="stylesheet" type="text/css"` and finally `python>href="with document route css"`<br>`python>link rel="stylesheet" type="text/css" href="theme.css">`   |
+|Style   |style   |If we do not want or can’t import a CSS style sheet, we have the alternative to define styles in the HEAD of the HTML document.  We simply define the style tag and proceed to write the styles we want for the tags.<br>`python><style>`<br>`python>h1 {color:red;}`<br>`python>p {color:blue;}`<br>`pyton></style>`   |
 
 [[info]]
 | :point_up:Just like it happens with HTML docs (ending with .html) CSS docs (style sheets) end with the `.css extension`.
